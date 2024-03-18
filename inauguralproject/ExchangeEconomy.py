@@ -13,6 +13,7 @@ class ExchangeEconomyClass:
         par.w2A = 0.3
         par.w1B = 1-par.w1A  # Assuming endowment for B as it's missing
         par.w2B = 1-par.w2A  # Assuming endowment for B as it's missing
+    
 
     def utility_A(self, x1A, x2A):
         alpha = self.par.alpha
@@ -40,10 +41,13 @@ class ExchangeEconomyClass:
         par = self.par
 
         x1A = self.demand_A(p1)
+        x2A = 1-self.demand_A(p1)
         x1B = self.demand_B(p1)
+        x2B = 1-self.demand_B(p1)
         # Assuming some missing parts to make it work, such as x2A and x2B calculations or corrections
 
         eps1 = x1A - par.w1A + x1B - (1 - par.w1A)
-        eps2 = x1A - par.w2A + x1B - (1 - par.w2A)  # This part needs to be corrected based on the actual model
+        eps2 = x2A - par.w2A + x2B - (1 - par.w2A)  # This part needs to be corrected based on the actual model
 
         return eps1, eps2
+
