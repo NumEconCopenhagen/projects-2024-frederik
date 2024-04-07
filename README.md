@@ -1,9 +1,9 @@
 # \[Group name\]
 
 **Group members:**
-- A
-- B
-- C
+- Frederik Thougaard, rzb926
+- Mikkel Overgaard, kxl924
+- Peter Vilmar, nbl500
 
 This repository contains  
 1. Inaugural project. 
