@@ -7,5 +7,5 @@
 
 This repository contains  
 1. Inaugural project. 
-2. Data project. We fetch data from **source x** on **y** and show that ...
+2. Data project. We fetch data from **Danmarks Statistik**  and show various relationships between different types of wealth of people in different municipalities in Denmark.
 3. Model project. We model ...
