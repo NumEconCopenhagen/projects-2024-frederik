@@ -1,4 +1,4 @@
-# \[Group name\]
+# \[Frederik]
 
 **Group members:**
 - Frederik Thougaard, rzb926
