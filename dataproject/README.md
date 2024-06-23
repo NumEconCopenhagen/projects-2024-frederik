@@ -7,4 +7,4 @@ The **results** of the project can be seen from running [APIData.ipynb].
 We apply the **url1 to url5** in our code. Read it.
 
 **Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires the following installations:
-DSTApi.
+pandas-datareader and DSTApi.
